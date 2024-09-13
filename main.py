@@ -3,6 +3,8 @@ from util.layout import output_layout
 import warnings
 
 warnings.filterwarnings("ignore")
+
+st.set_page_config(page_title="Datathon | Fase 5 | FIAP", layout='wide')
 output_layout()
 
 st.header(':blue[FIAP PÓS TECH – DATA ANALYTICS, 2024]',divider="orange")
