@@ -14,7 +14,7 @@ st.subheader(':orange[Datathon: Associação Passos Mágicos]')
 st.markdown(
     """
     <p style='text-indent: 30px'>
-    Visando oferecer uma análise detalhada e interativa dos principais indicadores do projeto, apresentamos os dashboards gerados, incluindo gráficos como **Ponto de Virada com Variação Percentual**, **Categorização INDE**, **Evolução do INDE ao Longo dos Anos**, entre outros. Cada gráfico está organizado em sua própria aba, possibilitando a exploração dinâmica dos dados, com a interação direta nos gráficos para obter insights personalizados e visualizar tendências e resultados educacionais de maneira mais envolvente.\n
+    Visando oferecer uma análise detalhada e interativa dos principais indicadores do projeto, apresentamos os dashboards gerados, incluindo gráficos como <strong>Ponto de Virada com Variação Percentual</strong>, <strong>Categorização INDE</strong>, <strong>Evolução do INDE ao Longo dos Anos</strong>, entre outros. Cada gráfico está organizado em sua própria aba, possibilitando a exploração dinâmica dos dados, com a interação direta nos gráficos para obter insights personalizados e visualizar tendências e resultados educacionais de maneira mais envolvente.\n
     </p>
     """,
     unsafe_allow_html=True
