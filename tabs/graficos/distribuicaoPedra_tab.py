@@ -88,20 +88,21 @@ class DistribuicaoPedraTab(TabInterface):
 
             # Cálculo das porcentagens de 2020
             total_alunos_2020 = data_2020_filtrado.sum().sum()
-            pct_ametista_2020 = (total_ametista_2020 / total_alunos_2020) * 100
-            pct_quartzo_2020 = (total_quartzo_2020 / total_alunos_2020) * 100
-            pct_topazio_2020 = (total_topazio_2020 / total_alunos_2020) * 100
-            pct_agata_2020 = (total_agata_2020 / total_alunos_2020) * 100
-
+            pct_ametista_2020 = (total_ametista_2020 / total_alunos_2020 * 100) if total_alunos_2020 > 0 else 0
+            pct_quartzo_2020 = (total_quartzo_2020 / total_alunos_2020 * 100) if total_alunos_2020 > 0 else 0
+            pct_topazio_2020 = (total_topazio_2020 / total_alunos_2020 * 100) if total_alunos_2020 > 0 else 0
+            pct_agata_2020 = (total_agata_2020 / total_alunos_2020 * 100) if total_alunos_2020 > 0 else 0
+            
             # Cálculo das porcentagens de 2021
             total_alunos_2021 = data_2021_filtrado.sum().sum()
-            pct_ametista_2021 = (total_ametista_2021 / total_alunos_2021) * 100
-            pct_quartzo_2021 = (total_quartzo_2021 / total_alunos_2021) * 100
-            pct_topazio_2021 = (total_topazio_2021 / total_alunos_2021) * 100
-            pct_agata_2021 = (total_agata_2021 / total_alunos_2021) * 100
+            pct_ametista_2021 = (total_ametista_2021 / total_alunos_2021 * 100) if total_alunos_2021 > 0 else 0
+            pct_quartzo_2021 = (total_quartzo_2021 / total_alunos_2021 * 100) if total_alunos_2021 > 0 else 0
+            pct_topazio_2021 = (total_topazio_2021 / total_alunos_2021 * 100) if total_alunos_2021 > 0 else 0
+            pct_agata_2021 = (total_agata_2021 / total_alunos_2021 * 100) if total_alunos_2021 > 0 else 0
+
 
             # Exibir as métricas com barras de progresso horizontais
-            st.subheader(':blue[Porcentagem de PEDRA por Instituição com Barras de Progresso]', divider='orange')
+            st.subheader(':blue[Porcentagem de Pedra por Instituição com Barras de Progresso]', divider='orange')
 
             col1, col2 = st.columns(2)
 
