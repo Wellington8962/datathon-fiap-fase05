@@ -30,6 +30,8 @@ with st.container():
         <p style='font-size:16px;'>
         <strong>Arquivos disponíveis:</strong>
         <ol>
+            <li>Pasta com os Arquivos em Python (Jupyter Notebooks) e Base de Dados (CSV)</li>
+            <li>Vídeo da Apresentação (MP4)</li>
             <li>Apresentação do Projeto (PDF)</li>
             <li>Apresentação do Projeto (.pptx)</li>
             <li>Relatório do Projeto (PDF)</li>
